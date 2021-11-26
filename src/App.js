@@ -12,12 +12,12 @@ function App() {
           <h2>The PSY Network Launch is Imminent</h2>
         </div>
         <div className="social">
-          <a target="_blank" href="https://twitter.com/Shroomz_NFT">
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/Shroomz_NFT">
             <div className="socialLink">
               <i class="fab fa-twitter"></i>
             </div>
           </a>
-          <a target="_blank" href="http://discord.gg/SbKRhMHF88">
+          <a target="_blank" rel="noreferrer" href="http://discord.gg/SbKRhMHF88">
             <div className="socialLink">
               <i class="fab fa-discord"></i>
             </div>
