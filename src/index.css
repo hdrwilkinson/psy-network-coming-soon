@@ -2,7 +2,9 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 24px;
+  font-size: 20px;
+  color: rgb(220,220,220);
+  font-family: 'Shippori Antique', sans-serif;
 }
 
 .wrapper {
@@ -11,62 +13,51 @@
 
 .titleWrapper {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.title {
-  display:block;
-  position: relative;
-  z-index: 3;
-  margin-left: auto;
-  margin-right:auto;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
   text-align: center;
+  height: 100%;
+  z-index: 3;
+  position: relative;
 }
 
-.title h1 {
-  font-size: 3rem;
-  font-family: 'Fruktur', cursive;
-  line-height: 1;
-
-  /* Stryling the text and giving it gradiant */
-  color: rgba(255, 255, 255, 0.7);
-  text-shadow: 0 0 4rem indigo;
-  animation: color-me-in 1s infinite; /* other keywords like "infinite alternate" can be useful here */
+.logo img {
+  margin-top: 2rem;
+  width: 5rem;
+  height: 5rem;
 }
 
-@keyframes color-me-in {
-  0% {
-    text-shadow: 0 0 2rem indigo;
-  }
-  14.3% {
-    text-shadow: 0 0 2rem blue;
-  }
-  28.6% {
-    text-shadow: 0 0 2rem green;
-  }
-  42.9% {
-    text-shadow: 0 0 2rem yellow;
-  }
-  57.1% {
-    text-shadow: 0 0 2rem orange;
-  }
-  71.4% {
-    text-shadow: 0 0 2rem red;
-  }
-  85.7% {
-    text-shadow: 0 0 2rem violet;
-  }
-  100% {
-    text-shadow: 0 0 2rem indigo;
-  }
+.title h2 {
+  font-size: 3vw;
+  letter-spacing: 0.2vw;
+  padding-bottom: 4rem;
+  text-transform: uppercase;
 }
 
-.title h1 span{
-  font-size: 6.5rem;
-  letter-spacing: 0.5rem;
+.socialLink {
+  display: inline-block;
+  padding-bottom: 2rem;
 }
+
+.socialLink a {
+  color: rgb(220,220,220);
+  padding: 0.5rem;
+  transition: 0.5s;
+}
+
+.socialLink a:hover {
+  color: white;
+}
+
+.socialLink a i {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: inherit;
+}
+
+
+
 
 @keyframes move-twink-back {
   from {background-position:0 0;}
@@ -94,7 +85,7 @@ background:#000 url(./assets/stars.png) repeat top center;
 z-index:0;
 }
 
-.twinkling{
+.twinkling {
 background:transparent url(./assets/twinkling.png) repeat top center;
 z-index:1;
 animation:move-twink-back 200s linear infinite;
