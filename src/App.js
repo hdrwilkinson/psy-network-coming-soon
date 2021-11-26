@@ -9,15 +9,19 @@ function App() {
           <img src="/PSY Logo.png" alt="PSY Network Logo"/>
         </div>
         <div className="title">
-          <h2>Prepare for the PSY Network Launch</h2>
+          <h2>The PSY Network Launch is Imminent</h2>
         </div>
         <div className="social">
-          <div className="socialLink">
-            <a target="_blank" href="https://twitter.com/Shroomz_NFT"><i class="fab fa-twitter"></i></a>
-          </div>
-          <div className="socialLink">
-            <a target="_blank" href="http://discord.gg/SbKRhMHF88"><i class="fab fa-discord"></i></a>
-          </div>
+          <a target="_blank" href="https://twitter.com/Shroomz_NFT">
+            <div className="socialLink">
+              <i class="fab fa-twitter"></i>
+            </div>
+          </a>
+          <a target="_blank" href="http://discord.gg/SbKRhMHF88">
+            <div className="socialLink">
+              <i class="fab fa-discord"></i>
+            </div>
+          </a>
         </div>
       </div>
     </div>
