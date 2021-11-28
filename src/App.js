@@ -13,7 +13,7 @@ function App() {
           <div className="links">
             <a href="https://magiceden.io/marketplace/shroomz">
               <div className="link">
-                MagicEden
+                Magic Eden
               </div>
             </a>
             <a href="https://digitaleyes.market/collections/shroomz">
@@ -21,7 +21,7 @@ function App() {
                 DigitalEyes
               </div>
             </a>
-            <a href="#">
+            <a href="/">
               <div className="link">
                 Staking
               </div>
