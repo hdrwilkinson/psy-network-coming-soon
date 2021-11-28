@@ -10,6 +10,23 @@ function App() {
         </div>
         <div className="title">
           <h2>The PSY Network Launch is Imminent</h2>
+          <div className="links">
+            <a href="https://magiceden.io/marketplace/shroomz">
+              <div className="link">
+                MagicEden
+              </div>
+            </a>
+            <a href="https://digitaleyes.market/collections/shroomz">
+              <div className="link">
+                DigitalEyes
+              </div>
+            </a>
+            <a href="#">
+              <div className="link">
+                Staking
+              </div>
+            </a>
+          </div>
         </div>
         <div className="social">
           <a target="_blank" rel="noreferrer" href="https://twitter.com/Shroomz_NFT">

@@ -31,7 +31,24 @@
 .title h2 {
   font-size: 4vw;
   letter-spacing: 0.2vw;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.link {
+  display: inline-block;
+  margin: 0 0.5rem;
+  padding: 0.4rem 2rem;
+  border: 0.1rem solid rgb(200,200,200);
+  transition: 0.5s;
+}
+
+.link:hover {
+  background: rgb(200,200,200);
+  color: rgb(20,20,20);
 }
 
 .social {
