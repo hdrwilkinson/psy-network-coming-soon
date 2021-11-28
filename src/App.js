@@ -11,17 +11,17 @@ function App() {
         <div className="title">
           <h2>The PSY Network Launch is Imminent</h2>
           <div className="links">
-            <a href="https://magiceden.io/marketplace/shroomz">
+            <a target="_blank" rel="noreferrer" href="https://magiceden.io/marketplace/shroomz">
               <div className="link">
                 Magic Eden
               </div>
             </a>
-            <a href="https://digitaleyes.market/collections/shroomz">
+            <a target="_blank" rel="noreferrer" href="https://digitaleyes.market/collections/shroomz">
               <div className="link">
                 DigitalEyes
               </div>
             </a>
-            <a href="/">
+            <a target="_blank" rel="noreferrer" href="/">
               <div className="link">
                 Staking
               </div>
