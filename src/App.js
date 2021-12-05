@@ -21,7 +21,7 @@ function App() {
                 DigitalEyes
               </div>
             </a>
-            <a target="_blank" rel="noreferrer" href="/">
+            <a target="_blank" rel="noreferrer" href="https://app.psynetwork.io">
               <div className="link">
                 Staking
               </div>
